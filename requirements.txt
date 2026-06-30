@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+flask
+streamlit
+requests
+joblib
+mlflow==2.13.2
+docker
+pyyaml
+gunicorn
