@@ -15,12 +15,6 @@ pipeline {
             }
         }
 
-        stage('Train Model') {
-            steps {
-                sh 'python3 train.py'
-            }
-        }
-
         stage('Pipeline Completed') {
             steps {
                 echo 'Travel Intelligence Platform Pipeline Executed Successfully!'
