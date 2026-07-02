@@ -15,3 +15,13 @@ mlruns/
 # OS Files
 .DS_Store
 Thumbs.db
+# Airflow
+airflow/logs/
+logs/
+
+# Airflow Database
+airflow/*.db
+
+# Backup Files
+*_backup.py
+*_backup2.py
