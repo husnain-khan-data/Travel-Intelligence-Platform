@@ -11,19 +11,19 @@ pipeline {
 
         stage('Python Version') {
             steps {
-                bat 'python --version'
+                sh 'python3 --version'
             }
         }
 
         stage('Install Requirements') {
             steps {
-                bat 'pip install -r requirements.txt'
+                sh 'pip3 install -r requirements.txt'
             }
         }
 
         stage('Train Model') {
             steps {
-                bat 'python train.py'
+                sh 'python3 train.py'
             }
         }
 
