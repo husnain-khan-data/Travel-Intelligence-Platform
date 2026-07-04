@@ -230,7 +230,7 @@ This project helped me understand:
 
 # Author
 
-**Hasnain Khan**
+**Husnain Khan**
 
 Data Science | Machine Learning | MLOps | AI
 
