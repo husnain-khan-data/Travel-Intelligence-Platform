@@ -185,7 +185,7 @@ MLflow is used to track machine learning experiments, compare different runs, an
 
 ### Flight Price Model
 
-![](images/ML%20flow%20flight%20price%20model.png)
+![](images/mlflow-flight-price-model.png)
 
 ---
 
